@@ -9,6 +9,8 @@ description = "Convert Markdown to Atlassian Document Format (ADF)"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
+authors = [{name = "Tingyi Yang", email = "tingyiy@hotmail.com"}]
+keywords = ["markdown", "adf", "atlassian", "confluence", "jira"]
 dependencies = [
     "mistune>=3.0,<4.0",
 ]
@@ -17,6 +19,10 @@ dependencies = [
 dev = [
     "pytest>=7.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/tingyiy/m2adf"
+Repository = "https://github.com/tingyiy/m2adf"
 
 [tool.setuptools.packages.find]
 include = ["md2adf*"]
